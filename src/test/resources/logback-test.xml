@@ -1,0 +1,13 @@
+<configuration debug="true">
+
+    <appender name="TestAppender" class="com.capgemini.tuto.TestAppender">
+        <encoder>
+            <pattern>%msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <root level="debug">
+        <appender-ref ref="TestAppender" />
+    </root>
+
+</configuration>
