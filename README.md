@@ -77,6 +77,14 @@ and [Generation library](https://github.com/qala-io/datagen).
 2. *Exclusions* configuration: focus on the code with business value
 3. Setting `projectKey`: support branches / versions with Sonar community edition
 
+## 7. TDD: Test Driven Development
+
+1. Read specifications
+2. Create structure (services, controllers, DTO, etc...)
+3. Write a test that **fails**
+4. Write only enough code to make the test **succeeds**
+5. Improve the code without changing its behavior (refactoring)
+
 ## 8. Advanced configuration
 
 1. Test execution using multithreading : `maven-surefire-plugin`

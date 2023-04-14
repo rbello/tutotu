@@ -1,4 +1,4 @@
-package com.capgemini.tuto.ctrl.srv;
+package com.capgemini.tuto.srv;
 
 import com.capgemini.tuto.dto.CatFactResponse;
 import com.capgemini.tuto.srv.CatService;

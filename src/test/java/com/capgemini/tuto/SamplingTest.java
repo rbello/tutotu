@@ -1,3 +1,5 @@
+package com.capgemini.tuto;
+
 import org.junit.jupiter.api.Test;
 
 import java.util.Random;
